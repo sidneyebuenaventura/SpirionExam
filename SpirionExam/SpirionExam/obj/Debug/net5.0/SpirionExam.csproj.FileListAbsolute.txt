@@ -1,0 +1,16 @@
+C:\Users\sidney buenaventura\source\repos\SpirionExam\SpirionExam\obj\Debug\net5.0\SpirionExam.csproj.AssemblyReference.cache
+C:\Users\sidney buenaventura\source\repos\SpirionExam\SpirionExam\obj\Debug\net5.0\SpirionExam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sidney buenaventura\source\repos\SpirionExam\SpirionExam\obj\Debug\net5.0\SpirionExam.AssemblyInfoInputs.cache
+C:\Users\sidney buenaventura\source\repos\SpirionExam\SpirionExam\obj\Debug\net5.0\SpirionExam.AssemblyInfo.cs
+C:\Users\sidney buenaventura\source\repos\SpirionExam\SpirionExam\obj\Debug\net5.0\SpirionExam.csproj.CoreCompileInputs.cache
+C:\Users\sidney buenaventura\source\repos\SpirionExam\SpirionExam\bin\Debug\net5.0\SpirionExam.exe
+C:\Users\sidney buenaventura\source\repos\SpirionExam\SpirionExam\bin\Debug\net5.0\SpirionExam.deps.json
+C:\Users\sidney buenaventura\source\repos\SpirionExam\SpirionExam\bin\Debug\net5.0\SpirionExam.runtimeconfig.json
+C:\Users\sidney buenaventura\source\repos\SpirionExam\SpirionExam\bin\Debug\net5.0\SpirionExam.runtimeconfig.dev.json
+C:\Users\sidney buenaventura\source\repos\SpirionExam\SpirionExam\bin\Debug\net5.0\SpirionExam.dll
+C:\Users\sidney buenaventura\source\repos\SpirionExam\SpirionExam\bin\Debug\net5.0\ref\SpirionExam.dll
+C:\Users\sidney buenaventura\source\repos\SpirionExam\SpirionExam\bin\Debug\net5.0\SpirionExam.pdb
+C:\Users\sidney buenaventura\source\repos\SpirionExam\SpirionExam\obj\Debug\net5.0\SpirionExam.dll
+C:\Users\sidney buenaventura\source\repos\SpirionExam\SpirionExam\obj\Debug\net5.0\ref\SpirionExam.dll
+C:\Users\sidney buenaventura\source\repos\SpirionExam\SpirionExam\obj\Debug\net5.0\SpirionExam.pdb
+C:\Users\sidney buenaventura\source\repos\SpirionExam\SpirionExam\obj\Debug\net5.0\SpirionExam.genruntimeconfig.cache

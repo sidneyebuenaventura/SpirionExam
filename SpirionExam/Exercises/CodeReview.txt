@@ -1,0 +1,41 @@
+class Rate {
+protected:
+	double my_rate;
+public:
+	Rate(double rate) {
+		// For much more readable if.
+		// you can insert each condition in the (). For example if( (rate < 0.0) || (rate > 1.0) )
+		// this process is useful when you have multiple conditions. It makes the conditions more readable
+		if (rate < 0.0 || rate > 1.0) {
+			// Please use "using namespace std;" before class Rate because you might need to display multiple strings. 
+			// using namespace std will not require you to use std in each input/output string.
+			throw std::range_error("Rate ranging error");
+		}
+		my_rate = rate;
+	}
+
+	operator double() {
+		return my_rate;
+	}
+};
+// Please create one method instead of three method as the formula is the same
+// or you can use inheritance. create a class ComputeCompoundInterest
+// then inherit this class and create classes for Daily, Monthly and Annual to compute each interest.
+double ComputeDailyCompoundedInterest(double principle, Rate daily_rate, double days)
+{
+	double i = principle * daily_rate * days;    // compute daily interest
+	return i;
+}
+
+double ComputeMonthlyCompoundedInterest(double principal, Rate montly_rate, double months)
+{
+	// wrong variable, use principal instead of principle and montly_rate instead of monthly_rate
+	double i = principal * montly_rate * months;  // compute monthly interest
+	return i;
+}
+
+double ComputeAnnuleCompoundedInterest(double principal, Rate yearly_rate, double years)
+{
+	double i = principal * yearly_rate * years;  // compute monthly interest
+	return i;
+}

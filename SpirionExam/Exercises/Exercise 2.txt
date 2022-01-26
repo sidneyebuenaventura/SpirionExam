@@ -1,0 +1,4 @@
+What is the behavioral difference between throw; and throw ex; inside the catch-handler?
+
+The behavioral difference between throw; and throw ex; is:
+In throw; the error will tell you where the exception is initially encountered. while throw ex; it will ignore the original exception and only contain the information about the exception.

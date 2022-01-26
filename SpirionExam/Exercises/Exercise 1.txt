@@ -1,0 +1,54 @@
+The differences in public, private, protected and internal modifiers are:
+
+For public modifier the access is not restricted which means that it can be accessed by other code in the program.
+	For Example: 
+		class A
+		{
+			public int x;
+		}
+		class program
+		{
+			static void main()
+			{
+				var a = new A();
+				a.x = 10;
+			}
+		}
+While internal modifier can be accessed within the same assembly file.
+
+On the other hand, protected modifier is accessible within the derived class.
+	For Example:
+		class A
+		{
+			protected int x;
+		}
+		class B : A
+		{
+			static void main()
+			{
+				var a = new A();
+				var b = new B();
+				// this will throw an error because the variable is 
+				// declared as a protected member of base class
+				a.x = 10;
+				// x can only be accessed by class B.
+				b.x = 5;
+			}
+		}
+ 
+Lastly, private modifier the access is limited, meaning that it can be only accessed in the same class or structure
+	For Example: 
+		class A
+		{
+			private int x;
+		}
+		class program
+		{
+			static void main()
+			{
+				var a = new A();
+				// this will throw an error because x is private
+				a.x = 10;
+			}
+		}
+s
