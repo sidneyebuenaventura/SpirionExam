@@ -5,10 +5,6 @@ using System.Collections.Generic;
 
 namespace SpirionExam
 {
-    class Names
-    {
-        string name { get; }
-    }
     enum listOfNames
     {
         christoper,
